@@ -1,14 +1,10 @@
-rol: Experto en github actions CI/CD consulta: Haz una documentación para una persona principiante con una explicación en forma de comentario al inicio y tras la explicación emplea un ejemplo sencillo para que quede más claro los siguientes conceptos:
+rol: Experto en despliegue con digital ocean. consulta: Haz una documentación para una persona principiante con una explicación en forma de comentario al inicio y tras la explicación emplea un ejemplo sencillo para que quede más claro los siguientes conceptos:
 
-- Explicación introductoría sobre problemas de seguridad relacionados con script injection, Malicious third-part actions y Permission Issues.
-- Explicación a profundidad de script injection, como identificar vulnerabilidades y como escribir nuestro archivo yml para que este protegido frente a estos ataques ya sea a través de actions o utilizando variables de entorno.
-- Explicación a profundidad del uso de actions, de las propias que represental la mayor seguridad, a las verificadas por github (seguridad intermedia), al uso de acciones no verificadas y como protegerte.
-- Explicación a profundida de los permisos, usando la key permissions para establecer para un job deteminado que puede hacer (ej:issues:write).
-- Explicación y uso de secrets.GITHUB_TOKEN.
-- Explicación de otras consideraciones de seguridad como permitir a github actions crear y aprobar pull request.
-- Explica a modo introductoría las configuraciones más importantes que puedes controlar en github relacionadas con la seguridad.
-- Explicación introductoría al uso de OpenId Connect, explicando como usar permissions con id-token y contents y luego un step para obtener AWS credentials
-  con uses aws-actions/configure-aws-credentials with role-to-assume y aws-region
+- Explicación sobre como reiniciar nuestro droplet.
+- Explicación para la instalación de cloudpanel en en droplet con ubuntu ya instalado, primero actualizar a las ultimas versiones, instalar todas las dependecias que son necesarias a nivel de servidor.
+- Explicación del puerto 8443 para acceder a admin de cloud panel y como configurar el firewall para que solo yo pueda acceder via web en nuestro droplet de digital ocean asignando a que droplet esta aplicado el firewall.
+- Explicación del paso a paso de como desplegar un proyecto de django con cloudpanel con proxy inverso, haciendo todas las configuraciones de usuarios,permisos,firewall,gunicorn, nginx, certificado ssl.
+
 
 Especificaciones:-La documentación debe contener la explicación detallada de todo lo necesario para el uso de los conceptos a nivel profesional-Los ejemplos deben estar explicados con comentarios sobre lo que hacen en cada paso -El formato de entrega será markdown. Verificación:Revisa el contenido de la consulta para obtener el resultado deseado, recuerda que lo más importante es que los ejemplos estén bien explicados , tomate el tiempo necesario para obtener el mejor resultado.
 
